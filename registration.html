@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        function showAlert() {
+            alert("Enter OTP that has been set to registered mobile/Email!");
+        }
+        function sendOTP() {
+            // Placeholder function to simulate sending OTP
+            alert("OTP sent successfully!");
+        }
+    </script>
+    <title>E-RickshaWala</title>
+    <link rel="stylesheet" href="background.css">
+    <link rel="stylesheet" href="registercss.css">
+</head>
+<body>
+    <section id="heading">
+        <h1>Welcome to E-Ricksha</h1>
+    </section>
+    <section id="register">
+        <h2>Register</h2>
+        <form>
+            <label for="mobile_or_email">Mobile Number or Email:</label><br>
+            <input type="text" id="mobile_or_email" name="mobile_or_email"><br>
+            <label for="new_username">Username:</label><br>
+            <input type="text" id="new_username" name="new_username"><br>
+            <label for="new_password">Password:</label><br>
+            <input type="password" id="new_password" name="new_password"><br>
+            <input id="button" type="button" value="Send OTP" onclick="sendOTP(),window.location.href='otp.html'">
+           
+        </form>
+    </section>
+</body>
+</html>
