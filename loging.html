@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        function show() {
+            alert("loging successfully! you can book E-Ricksha");
+        }
+        </script>
+    <title>E-RickshaWala</title>
+    <link rel="stylesheet" href="logincss.css">
+    <link rel="stylesheet" href="background.css">
+</head>
+<body>
+    <section id="heading">
+        <h1>Welcome to E-Ricksha</h1>
+    </section>
+
+    <section id="login">
+        <h2>Login</h2>
+        <form>
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username"><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password"><br><br>
+            <input id="button" type="button" value="Login" onclick="show(),window.location.href='booking.html'">
+        </form>
+    </section>
+
+   
+</body>
+</html>
