@@ -42,3 +42,13 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #45a049;
 }
+#button {
+    background-color: #45a049;
+    width:5%;
+    height:30px;
+    cursor: pointer;
+
+}
+#button:hover {
+    background-color: #45a049; 
+}
