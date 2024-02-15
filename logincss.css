@@ -1,0 +1,46 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+section {
+    margin: 20px auto;
+    padding: 10px;
+    width: 20%;
+    background-color: #6a9589;
+}
+
+form {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    margin: 10px 0;
+    padding: 8px;
+    width: 80%;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+#button {
+    background-color: #45a049;
+    width:80%;
+    height:30px;
+
+}
