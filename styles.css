@@ -1,0 +1,46 @@
+/* General styling */
+
+
+h1,h2{
+    color: yellow;
+    text-align: center;
+    
+}
+
+section {
+    margin-right: 200px ;
+    padding: 10px;
+    width: 50%;
+    height:auto ;
+    background-color: #98afb6ce;
+}
+
+#h1,
+#login,
+#register,
+#booking {
+    background-color: transparent; 
+    padding: 10px; 
+    text-align: center;
+}
+
+/* Style the buttons within the sections */
+#login button,
+#register button
+ {
+    background-color: #074e07; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px 20px; /* Button padding */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Add cursor pointer */
+    border-radius: 5px; /* Add border radius */
+    text-decoration: none; /* Remove default link underline */
+    display: inline-block; /* Display as inline block */
+    margin-top: 10px; 
+}
+
+/* Hover effect for buttons */
+#login button:hover,
+#register button:hover {
+    background-color: #45a049; 
+}
